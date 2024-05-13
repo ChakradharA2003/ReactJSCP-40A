@@ -1,0 +1,16 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.about-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/about-lg-img.png');
+  background-size: cover;
+  height: 100vh;
+  margin-top: 10px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .about-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/about-sm-img.png');
+    background-size: cover;
+    height: 100vh;
+    margin-top: 10px;
+  }
+}
