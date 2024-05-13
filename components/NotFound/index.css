@@ -1,0 +1,30 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-image {
+  height: 400px;
+  width: 400px;
+}
+.not-found-heading {
+  font-size: 40px;
+  color: #616e7c;
+}
+.not-found-description {
+  text-align: center;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .not-found-image {
+    height: 250px;
+    width: 250px;
+  }
+  .not-found-heading {
+    font-size: 26px;
+  }
+}
