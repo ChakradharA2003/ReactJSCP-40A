@@ -1,16 +1,24 @@
 /* Write your CSS here */
 /* Write your CSS here */
 .about-container {
-  background-image: url('https://assets.ccbp.in/frontend/react-js/about-lg-img.png');
-  background-size: cover;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   margin-top: 10px;
 }
+.image2 {
+  display: none;
+}
+.image1 {
+  display: flex;
+}
 @media (max-width: 767px) and (orientation: portrait) {
-  .about-container {
-    background-image: url('https://assets.ccbp.in/frontend/react-js/about-sm-img.png');
-    background-size: cover;
-    height: 100vh;
-    margin-top: 10px;
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: flex;
   }
 }
