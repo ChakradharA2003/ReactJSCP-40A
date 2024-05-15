@@ -1,15 +1,22 @@
 /* Write your CSS here */
 .home-container {
-  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-img.png');
-  background-size: cover;
-  height: 100vh;
-  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.image1 {
+  display: flex;
+}
+.image2 {
+  display: none;
 }
 @media (max-width: 767px) and (orientation: portrait) {
-  .home-container {
-    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-img.png');
-    background-size: cover;
-    height: 100vh;
-    margin-top: 10px;
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: flex;
   }
 }
