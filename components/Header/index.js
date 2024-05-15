@@ -11,11 +11,13 @@ import './index.css'
 
 const Header = () => (
   <div className="header-container">
-    <img
-      src="https://assets.ccbp.in/frontend/react-js/hamburger-menu-website-logo.png"
-      alt="website logo"
-      className="website-logo"
-    />
+    <Link to="/" className="website-logo-link">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/hamburger-menu-website-logo.png"
+        alt="website logo"
+        className="website-logo"
+      />
+    </Link>
     <div className="pop-up-container">
       <Popup
         modal
